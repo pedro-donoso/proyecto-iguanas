@@ -1,0 +1,133 @@
+html {
+  font-size: 62.5%;
+  width: 100%;
+  font-family: "Raleway", sans-serif;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p {
+  color: #fff;
+}
+
+p {
+  padding-top: 20px;
+  font-size: 1.6rem;
+  font-weight: 300;
+}
+
+#header-page h1 {
+  text-align: center;
+  font-size: 5rem;
+  margin: 10px 0;
+}
+
+#header-page img {
+  width: 100%;
+}
+
+.desc-section {
+  height: 348px;
+  background-color: #000000;
+  display: flex;
+}
+
+.desc-section-master {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.desc-section-text {
+  width: 60%;
+  padding-right: 10%;
+}
+
+.desc-section-image {
+  width: 40%;
+}
+
+.desc-section-image img {
+  width: 100%;
+}
+
+#icons-section {
+  background-color: #1e1a13;
+  color: fff;
+  text-align: center;
+  height: 348px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#icons-section h2 {
+  margin-top: 20px;
+  font-size: 4rem;
+  text-transform: uppercase;
+}
+
+#icons-section-block {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+#icons-section-block h3 {
+  font-size: 2.5rem;
+  font-weight: 300;
+}
+
+.icons-section-block-child {
+  display: block;
+  margin: 20px 40px;
+  padding: 20px;
+}
+
+.icons-section-block-child i {
+  font-size: 3rem;
+  padding: 15px;
+}
+
+.gallery {
+  height: 348px;
+  display: flex;
+  align-items: center;
+}
+
+.gallery-master {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.gallery-master img {
+  width: 316px;
+  height: 202px;
+}
+
+footer {
+  background-color: #1e1a13;
+  height: 102px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer h4 {
+  font-size: 20px;
+  font-weight: 300;
+}
